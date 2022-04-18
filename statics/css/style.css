@@ -945,4 +945,9 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
+
 /*# sourceMappingURL=style.css.map */
