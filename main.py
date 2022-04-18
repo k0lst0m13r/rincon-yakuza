@@ -15,7 +15,7 @@ def base():
 
 @app.route("/sala")
 def sala():
-    return render_template("sala.html")
+    return render_template("base/sala.html")
 
 @app.route("/peli")
 def peli():

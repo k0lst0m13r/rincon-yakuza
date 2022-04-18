@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
   width: 100%;
-  
+
 }
 @media screen and (max-width: 480px) {
   #fh5co-home {
@@ -944,6 +944,18 @@ h1, h2, h3, h4, h5, h6 {
   animation-duration: .3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+
+.copy-left {
+display: inline-block;
+text-align: right;
+margin: 0px;
+-moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+filter: FlipH;
+-ms-filter: "FlipH";
 }
 
 /*# sourceMappingURL=style.css.map */
